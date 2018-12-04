@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo '>' "$@" >> /root/Documents/MachineNotes/log
+echo '' >> /root/Documents/MachineNotes/log
+"$@" >> /root/Documents/MachineNotes/log
+
+"$@"
